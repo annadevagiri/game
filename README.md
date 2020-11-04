@@ -14,10 +14,10 @@ reference : https://en.wikipedia.org/wiki/Tic-tac-toe
 7. diagonal start index with 0, 2  +4/+2 to get next index in the diagonal
 
 # priority for moves
-game play
-block user
-diagonal choice
-choose random index
+1. game play
+2. block user
+3. diagonal choice
+4. choose random index
 
 # steps
 
