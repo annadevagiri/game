@@ -8,11 +8,16 @@ reference : https://en.wikipedia.org/wiki/Tic-tac-toe
 1. computer goes first
 2. always pick corners or center cells
 3. aim for winning move for playerOne COMPUTER
-
 4. check for the row or column with two filled spaces
-	// rows start index with 0, 3, 6,  +1 to get next index in the row
-	// columns start index with 0, 1, 2,  +3 to get next index in the column
-	// diagonal start index with 0, 2  +4/+2 to get next index in the diagonal
+5. rows start index with 0, 3, 6,  +1 to get next index in the row
+6. columns start index with 0, 1, 2,  +3 to get next index in the column
+7. diagonal start index with 0, 2  +4/+2 to get next index in the diagonal
+
+# priority for moves
+game play
+block user
+diagonal choice
+choose random index
 
 # steps
 
