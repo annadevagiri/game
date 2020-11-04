@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  table {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    font-size: 120px;
+    margin: 1% auto;
+    border-collapse: collapse;
+  }
+ th, td {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  border: 1px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+</style>
+<body onload="initGame()">
+
+<div class="col-md-12">
+  <h1 class="center">Tic Tac Toe</h2>
+  <h1 id="demo1" class="center" >Go go go !!!</h2>
+  <table>
+    <tr>  
+      <td id="cell-0" onclick="playerTwoGo(this.id)"></td>
+      <td id="cell-1" onclick="playerTwoGo(this.id)"></td>
+      <td id="cell-2" onclick="playerTwoGo(this.id)"></td>
+    </tr>
+     <tr>  
+      <td id="cell-3" onclick="playerTwoGo(this.id)"></td>
+      <td id="cell-4" onclick="playerTwoGo(this.id)"></td>
+      <td id="cell-5" onclick="playerTwoGo(this.id)"></td>
+    </tr>
+     <tr>
+      <td id="cell-6" onclick="playerTwoGo(this.id)"></td>
+      <td id="cell-7" onclick="playerTwoGo(this.id)"></td>
+      <td id="cell-8" onclick="playerTwoGo(this.id)"></td>
+    </tr>
+  </table>
+<h4 class="center"><button onclick="restart()" >RESTART</button></h4>
+</div>
+<script src="gameScript.js"></script>
+</body>
+</html>
+
+
